@@ -8,13 +8,6 @@
     "type": "git",
     "url": "git+https://github.com/rpcatullo/RiverbendHackClub"
   },
-  "keywords": [
-    "riverbend",
-    "riverbend hack club",
-    "hack club",
-    "riverbend club",
-    "riverbend code"
-  ],
    "devDependencies": {
     "bulma": "^0.7.5"
   }
