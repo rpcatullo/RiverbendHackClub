@@ -25,13 +25,13 @@ body {
   -webkit-transition: color 250ms;
 }
 .title {
-  color: #000 !important;
+  color: #fff !important;
   font-family: "Chivo", Arial;
   margin: 2.5% 2.5% 2.5% 2.5% !important;
 }
 .subtitle {
   margin-top: 2%;
-  color: #000 !important;
+  color: #fff !important;
   margin: 2.5% 2.5% 2.5% 2.5% !important;
 }
 .title-box {
@@ -44,7 +44,7 @@ body {
   margin-bottom: 2.5% !important;
 }
 .main::after {
-  background: url(http://www.sussex.ac.uk/broadcast/images/uploads/2018/01/8286.item.jpg) no-repeat center center fixed;
+  background: url(https://i.udemycdn.com/course/750x422/1713468_3ee3_4.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -73,8 +73,29 @@ body {
   #about-section {
     height:80%;
   }
+  .contact-card {
+    max-width:150px !important;
+  }
+  .contact-link {
+    font-size:18px !important;
+  }
 }
 #about-section {
   background-color: #fff;
   margin-top:-2.5% !important;
+}
+.contact-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.contact-link {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+.contact-link:hover {
+  opacity:.6;
 }
