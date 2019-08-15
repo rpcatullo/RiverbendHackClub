@@ -1,0 +1,14 @@
+{
+  "name": "Riverbend Hack Club",
+  "author": {
+    "name": "Ryan Catullo",
+    "email": "rcatullo13@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpcatullo/RiverbendHackClub"
+  },
+   "devDependencies": {
+    "bulma": "^0.7.5"
+  }
+}
