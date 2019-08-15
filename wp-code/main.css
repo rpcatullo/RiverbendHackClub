@@ -41,17 +41,16 @@ body {
   margin: 2.5% 2.5% 2.5% 2.5% !important;
 }
 .columns {
-  margin-top: 7.5% !important;
   margin-bottom: 2.5% !important;
 }
 .main::after {
-  background: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__340.jpg) no-repeat center center fixed;
+  background: url(http://www.sussex.ac.uk/broadcast/images/uploads/2018/01/8286.item.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   content: "";
-  opacity: 0.3;
+  opacity: 1;
   top: 0;
   left: 0;
   bottom: 0;
@@ -61,7 +60,7 @@ body {
 }
 .main {
   display: block;
-  position:relative;
+  position: relative;
 }
 @media all and (max-width: 768px) and (min-width:0px) {
   .info-box {
@@ -71,9 +70,11 @@ body {
     margin-top: 7.5% !important;
     margin-bottom: 2.5% !important;
   }
+  #about-section {
+    height:80%;
+  }
 }
 #about-section {
-  background-color: #297f3c;
-  height: 100%;
+  background-color: #fff;
   margin-top:-2.5% !important;
 }
