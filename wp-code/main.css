@@ -1,6 +1,14 @@
+@font-face {
+font-family: "Chivo";
+src: url("Chivo-Regular.otf") format("opentype");
+}
+html {
+  height:100%;
+}
 body {
   margin: 0;
   padding: 0;
+  height:100%;
 }
 #navbarMenu {
   background-color: #29AAE2 !important;
@@ -17,12 +25,55 @@ body {
   -webkit-transition: color 250ms;
 }
 .title {
-  color: #1C9E4A !important;
-  font-family: "Phantom Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #000 !important;
+  font-family: "Chivo", Arial;
+  margin: 2.5% 2.5% 2.5% 2.5% !important;
 }
 .subtitle {
   margin-top: 2%;
+  color: #000 !important;
+  margin: 2.5% 2.5% 2.5% 2.5% !important;
 }
 .title-box {
   margin: 7% 0% 7% 0% !important;
+}
+.info-box {
+  margin: 2.5% 2.5% 2.5% 2.5% !important;
+}
+.columns {
+  margin-top: 7.5% !important;
+  margin-bottom: 2.5% !important;
+}
+.main::after {
+  background: url(https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536__340.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position:absolute;
+  z-index: -1;
+}
+.main {
+  display: block;
+  position:relative;
+}
+@media all and (max-width: 768px) and (min-width:0px) {
+  .info-box {
+    margin: 2.5% 7.5% 2.5% 7.5% !important;
+  }
+  .columns {
+    margin-top: 7.5% !important;
+    margin-bottom: 2.5% !important;
+  }
+}
+#about-section {
+  background-color: #297f3c;
+  height: 100%;
+  margin-top:-2.5% !important;
 }
