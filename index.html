@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Riverbend Hack Club | Learn to Code</title>
     <script src="https://kit.fontawesome.com/56d56ef2f8.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
     <link rel="stylesheet" type="text/css" href="wp-code\main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
   </head>
   <body class="has-navbar-fixed-top">
     <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/">
           <!-- Change logo image and image dimensions -->
           <img src="assets\RHS_Hack_Club_Logo.jpg" width="28" height="28">
         </a>
@@ -26,19 +27,19 @@
       <div id="navbarMenu" class="navbar-menu">
         <div class="navbar-start">
           <!-- Add links to these items -->
-          <a class="navbar-item">
+          <a class="navbar-item" datascroll href="#about">
             About
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" datascroll href="#workshops">
             Workshops
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" datascroll href="#hackathons">
             Hackathons
           </a>
 
-          <a class="navbar-item">
+          <a class="navbar-item" datascroll href="#leadership">
             Leadership
           </a>
         </div>
@@ -67,7 +68,7 @@
         </div>
       </div>
     </section>
-    <section id="about-section">
+    <section id="about">
       <p class="title is-size-5-mobile is-size-2-desktop" style="margin-left: 7.5%; padding-top:5.5%; color: #35ACE2 !important">About</p>
       <div class="columns">
         <div class="column box info-box">
@@ -84,8 +85,16 @@
         </div>
       </div>
     </section>
-    <div style="background-color: #ddd; width:100%; height:2px; margin:0; padding:0;"></div>
-    <section>
+    <div style="background-color: #ddd; width:100%; height:2px; margin-top:10%; padding:2.5px;"></div>
+    <section id="workshops">
+      <p class="title is-size-5-mobile is-size-2-desktop" style="margin-left: 7.5%; padding-bottom: 1.5%; padding-top:5.5%; color: #35ACE2 !important">Workshops</p>
+    </section>
+    <div style="background-color: #ddd; width:100%; height:2px; margin-top:10%; padding:2.5px;"></div>
+    <section id="hackathons">
+      <p class="title is-size-5-mobile is-size-2-desktop" style="margin-left: 7.5%; padding-bottom: 1.5%; padding-top:5.5%; color: #35ACE2 !important">Hackathons</p>
+    </section>
+    <div style="background-color: #ddd; width:100%; height:2px; margin-top:10%; padding:2.5px;"></div>
+    <section id="leadership">
       <p class="title is-size-5-mobile is-size-2-desktop" style="margin-left: 7.5%; padding-bottom: 1.5%; padding-top:5.5%; color: #35ACE2 !important">Leadership</p>
       <div class="columns">
         <div class="column is-one-third-desktop is-mobile">
