@@ -1,9 +1,102 @@
 <html>
-<body>
-<form action="POST" method="https://brick-attempt.glitch.me/submit">
-<input type="text" name="name" placeholder="Enter your team name"><br>
-<input type="text" name="flag" placeholder="Enter the flag"><br>
-<input type="submit">
-</form>
-</body>
-</html
+  <head>
+    <style media="screen">
+      body, html {
+        background-color: #000;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        color: white;
+        padding: 30px;
+        overflow-x: hidden;
+      }
+      input {
+        border-radius: 5px;
+        margin-bottom: 5px;
+      }
+      h1, h2, h3 {
+        background-color: inherit;
+        color: white;
+      }
+      div {
+        color: white
+      }
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      .column {
+        float: left;
+        width: 50%;
+      }
+      a:link {
+        color: orange;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: #22d7e0;
+        background-color: transparent;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #f25a5a;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CTF! Submit your flag when you have an answer</h1>
+    <div class="row">
+      <div class="column">
+        <form method="POST" action="https://brick-attempt.glitch.me/submit">
+          <h3>Submit your flags here.</h3>
+          Enter your team name (or yours if you are working alone) <br>
+          <input type="text" name="name" placeholder="hackersquad"><br>
+          Enter the question and flag in the format difficulty-question-flag <br>
+          <input type="text" name="flag" placeholder="easy-1-hello world"><br>
+          <input type="submit">
+        </form>
+      </div>
+      <div class="column" style="width: 40%">
+        <h2>Questions!</h2>
+        <h3>Easy - 5 points</h3>
+        <div class="">
+          <ol>
+            <li>The numbers, what do they say? <br> 2 18 1 9 14 26 26 26 </li>
+            <li>What is the opening tag to create a comment in HTML? </li>
+            <li>Can you convert the number 42 (base 10) to binary (base 2)?</li>
+          </ol>
+        </div>
+        <h3>Medium - 10 points</h3>
+        <div class="">
+          <ol>
+            <li>Take a look at this <a href="garden.jpg" download>garden</a>! On an unrelated note, has anyone seen my hex editor? Hint: The format of the flag is: Here is a flag “[the flag]”</li>
+            <li>What is 0x3D (base 16) in decimal (base 10)? </li>
+            <li>I heard a certain roman consul liked to keep secrets. Anyways arm spaghetti: om3e4di0gxpn3bd0gp</li>
+          </ol>
+        </div>
+        <h3>Hard - 20 points</h3>
+        <div class="">
+          <ol>
+            <li><a href="https://www.nytimes.com/">New York Times</a> <br>
+              Sometimes I like to console myself when inspecting the grass for easter eggs, for they are not always immediately apparent.<br>
+              Hint: the format of the flag is "All the code that’s fit to [the flag]"</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
